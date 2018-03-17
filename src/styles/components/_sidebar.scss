@@ -1,0 +1,46 @@
+.sidebar {
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 100vh;
+  background-color: $lucky-point;
+  margin-right: 50px;
+
+  .logo-wrapper {
+    margin: 10px 10px 30px -10px;
+    .logo {
+      padding: 10px;
+    }
+  }
+
+  .menu-wrapper {
+    padding-left: 0px;
+    .nav {
+      .nav-item {
+        a {
+          color: $swan-white;
+          span {
+            margin-left: 10px;
+            font-variant: all-small-caps;
+          }
+          &:hover {
+            border-radius: 3px;
+            background-color: $devil-blue;
+            $enable-shadows: true;
+          }
+          &:active {
+            border-radius: 3px;
+            background-color: $summer-sky;
+            $enable-shadows: true;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu-item-active {
+  border-radius: 3px;
+  background-color: $summer-sky;
+  $enable-shadows: true;
+}
+

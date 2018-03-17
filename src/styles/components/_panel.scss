@@ -1,0 +1,18 @@
+.pn-panel {
+  background: #FFFFFF;
+  border-radius: 3px;
+  $enable-shadows: true;
+
+  .panel-heading {
+    padding: 10px 20px;
+  }
+
+  .panel-body {
+    height: 100%;
+    padding: 0px 20px 10px 20px;
+  }
+
+  .panel-footer {
+    padding: 0px 20px 10px 20px;
+  }
+}

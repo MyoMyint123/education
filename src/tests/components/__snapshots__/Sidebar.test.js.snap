@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Sidebar correctly 1`] = `
+<nav
+  className="sidebar bg-dark"
+>
+  <SidebarMenu
+    menus={
+      Array [
+        Object {
+          "iconType": "tachometer",
+          "link": "/dashboard",
+          "name": "Dashboard",
+        },
+        Object {
+          "iconType": "graduation-cap",
+          "link": "/schools",
+          "name": "School",
+        },
+        Object {
+          "iconType": "users",
+          "link": "/users",
+          "name": "User",
+        },
+        Object {
+          "iconType": "cog",
+          "link": "/setting",
+          "name": "Setting",
+        },
+      ]
+    }
+  />
+</nav>
+`;

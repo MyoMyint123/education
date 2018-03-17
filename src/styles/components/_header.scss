@@ -1,0 +1,20 @@
+.header-wrapper {
+  min-width: 100%;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: #fff;
+  border-radius: 3px;
+  $enable-shadows: true;
+
+  .header-left-panel {}
+
+  .header-right-panel {
+    .header-user-menu {
+      .nav-item {
+        padding-left: 20px;
+      }
+    }
+  }
+}

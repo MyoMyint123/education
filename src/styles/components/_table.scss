@@ -1,0 +1,129 @@
+.actions-bar {
+  background-color: #e4e4e4;
+  height: auto;
+  padding: 5px;
+  border-radius: 3px;
+
+  input {
+    border: none;
+    line-height: 2.1rem;
+  }
+
+  .search {
+    position: relative;
+    width: 300px;
+    color: #aaa;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #FFF;
+    .fa-search {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    > input {
+      border-radius: 3px;
+      width: 300px;
+      text-indent: 32px;
+    }
+  }
+
+  .date-range {
+    position: relative;
+    width: 300px;
+    color: #aaa;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #FFF;
+    .fa-calendar {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .fa-caret-down {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    > input {
+      border-radius: 3px;
+      width: 300px;
+      text-indent: 32px;
+      cursor: pointer;
+      &:focus {
+        border: none;
+      }
+    }
+  }
+
+  .action-right-pane {
+    button {
+      padding: 0 13px 0 13px;
+    }
+    button:not(:last-child) {
+      margin-left: 20px;
+    }
+    button:last-child {
+      margin-left: 10px;
+    }
+  }
+}
+
+.paignation-bar {
+
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  thead {
+    th {
+      border: none;
+      padding: 15px 0 0 10px;
+      font-variant-caps: all-small-caps;
+      color: $grey-porcelain;
+    }
+  }
+  tbody {
+    tr {
+      background-color: #fff;
+
+      &:hover {
+        cursor: pointer;
+        > td:first-child {
+          box-shadow: -2px 0px 0px 0px lighten($lucky-point, 10%);
+        }
+        &:not(:first-child) {
+          box-shadow: 0px 0px 5px 8px rgba(209, 204, 192, 0.2);
+        }
+        &:first-child {
+          box-shadow: 0px 0px 3px 5px rgba(209, 204, 192, 0.2);
+        }
+      }
+    }
+    td {
+      border: none;
+    }
+
+    td:first-child {
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+
+    td:last-child {
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+}

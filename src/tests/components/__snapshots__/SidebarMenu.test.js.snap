@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarMenu should render SidebarMenu correctly with items 1`] = `
+<ul
+  className="list-unstyled"
+>
+  <div />
+  <MenuItem
+    iconType="tachometer"
+    key="Dashboard"
+    linkTo="/dashboard"
+    name="Dashboard"
+  />
+  <MenuItem
+    iconType="graduation-cap"
+    key="School"
+    linkTo="/schools"
+    name="School"
+  />
+  <MenuItem
+    iconType="users"
+    key="User"
+    linkTo="/users"
+    name="User"
+  />
+  <MenuItem
+    iconType="cog"
+    key="Setting"
+    linkTo="/setting"
+    name="Setting"
+  />
+</ul>
+`;
+
+exports[`SidebarMenu should render SidebarMenu without items 1`] = `
+<ul
+  className="list-unstyled"
+>
+  <div />
+</ul>
+`;
