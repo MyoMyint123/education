@@ -1,10 +1,10 @@
 import React from 'react';
-import CreateForm from './CreateForm';
+import NewCreateForm from './NewCreateForm';
 import SchoolDetails from './SchoolDetails';
 import SchoolTable from './SchoolTable';
 
 export {
-  CreateForm,
+  NewCreateForm,
   SchoolDetails,
   SchoolTable
 }

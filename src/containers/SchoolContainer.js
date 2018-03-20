@@ -28,7 +28,8 @@ export default class SchoolContainer extends Component {
     })
   }
   render() {
-    const { schools, showTable, newForm, showDetail } = this.state;
+    const { schools, showTable, newForm, showDetail, schoolDetailData } = this.state;
+    console.log(schoolDetailData);
     return (
       <Page>        
           {
