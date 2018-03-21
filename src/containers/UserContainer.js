@@ -6,13 +6,12 @@ import { getUsers }from '../services/api';
 import requestUsers from '../actions/userActions';
 
 class UserContainer extends Component {
-
+ 
   componentWillMount() {
+    const {dispatch} = this.props;
     getUsers()
       .then((data) => {
-        // console.log(data);
-        this.props.dispatch(requestUsers(data));
-        console.log(getState());
+        dispatch(requestUsers("kkkkk"));
       });
   }
   render() {
